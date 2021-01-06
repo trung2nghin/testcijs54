@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="game"></div>
+        <div class="btn-send">
+            <button id="send">Trả lời</button>
+        </div>
+    </div>
+</body>
+
+<template id="gameScreen">
+    <link rel="stylesheet" href="style.css">
+    <div id="question"></div>
+    <div id="answer"></div>
+
+</template>
+
+<template id="quizz">
+    <link rel="stylesheet" href="style.css">
+    <div class="choose">
+        <div>
+            <input type="checkbox" id="checkbox">
+        </div>
+        <div class="spright">
+            <div id="content"></div>
+        </div>
+    </div>
+</template>
+
+<script src="./index.js" type="module"></script>
+
+</html>

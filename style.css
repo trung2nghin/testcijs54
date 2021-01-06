@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#question {
+    border: 1px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.choose {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 250px;
+}
+
+.btn-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send {
+    width: 80px;
+    height: 36px;
+}
+
+.spright {
+    padding: 10px;
+}
